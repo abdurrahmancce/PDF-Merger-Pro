@@ -7,7 +7,7 @@ import threading
 import subprocess
 from pathlib import Path
 
-# ── Library import
+# Library import
 try:
     from pypdf import PdfReader, PdfWriter  # type: ignore
     PDF_LIB = "pypdf"
